@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تصوير المنتج</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Eye Product</h1>
+        <nav>
+            <a href="index.html">الصفحة الرئيسية</a>
+            <a href="register.html">تسجيل</a>
+            <a href="login.html">تسجيل دخول</a>
+        </nav>
+    </header>
+
+    <section id="camera-section">
+        <h2>تصوير المنتج</h2>
+        <p>اضغط على الزر لبدء التصوير:</p>
+        <button id="start-camera">ابدأ التصوير</button>
+        <video id="video" width="300" height="200" autoplay></video>
+        <button id="capture" disabled>التقاط الصورة</button>
+        <canvas id="canvas" style="display:none;"></canvas>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Eye Product. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
