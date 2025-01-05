@@ -1,0 +1,3 @@
+<script src="js/register.js"></script> <!-- في صفحة التسجيل -->
+<script src="js/login.js"></script>    <!-- في صفحة تسجيل الدخول -->
+<script src="js/home.js"></script>     <!-- في الصفحة الرئيسية -->
